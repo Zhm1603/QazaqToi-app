@@ -1,8 +1,8 @@
 {
   "name": "qazaqtoi-app",
   "version": "0.1.0",
-  "homepage": "https://zhm1603.github.io/QazaqToi-app/",
   "private": true,
+  "homepage": "https://zhm1603.github.io/QazaqToi-app/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

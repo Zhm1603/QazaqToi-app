@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100..900&display=swap');
+
+:root {
+    --main-color: #0a4179;
+    --hover-color: #e7e25c;
+    --font-color: rgb(220, 221, 243);
+    --font-color-hover: black;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.categories-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.categories-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category-image {
+    width: 80px;
+    height: 80px;
+    background-color: var(--hover-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.category-image img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.category-name {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .categories-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

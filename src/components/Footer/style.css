@@ -1,0 +1,53 @@
+:root{
+    --main-color: #0a4179;
+    --hover-color:#e7e25c;
+    --font-color:rgb(220, 221, 243);
+    --font-color-hover:black;
+    --burger-menu-color:rgb(100, 177, 241);
+}
+.footer {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--font-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.footer-social-text {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    font-size: 24px;
+    color: var(--font-color);
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-icon:hover {
+    color: var(--hover-color);
+}

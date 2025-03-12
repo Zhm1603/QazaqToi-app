@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/QazaqToi-app/static/css/main.71f8a34c.css",
-    "main.js": "/QazaqToi-app/static/js/main.a6bd6ccd.js",
+    "main.css": "/QazaqToi-app/static/css/main.32e85f0b.css",
+    "main.js": "/QazaqToi-app/static/js/main.c98ca670.js",
     "static/media/kalta.png": "/QazaqToi-app/static/media/kalta.a70de96edba6bd6b786f.png",
     "index.html": "/QazaqToi-app/index.html",
-    "main.71f8a34c.css.map": "/QazaqToi-app/static/css/main.71f8a34c.css.map",
-    "main.a6bd6ccd.js.map": "/QazaqToi-app/static/js/main.a6bd6ccd.js.map"
+    "main.32e85f0b.css.map": "/QazaqToi-app/static/css/main.32e85f0b.css.map",
+    "main.c98ca670.js.map": "/QazaqToi-app/static/js/main.c98ca670.js.map"
   },
   "entrypoints": [
-    "static/css/main.71f8a34c.css",
-    "static/js/main.a6bd6ccd.js"
+    "static/css/main.32e85f0b.css",
+    "static/js/main.c98ca670.js"
   ]
 }
